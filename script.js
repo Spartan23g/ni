@@ -4,15 +4,15 @@ let gameType; // 'gallery' o 'memory'
 
 // URLs de tus imágenes para la galería
 const galleryImages = [
-    "images/image_1.png.png",
-    "images/image_2.png.png",
-    "images/image_3.png.png",
-     "images/ono.png",
-      "images/ona.jfif",
-      "images/one.jfif",
-      "images/oni.jfif",
-    "images/onu.jfif",
-"images/nono.jfif",];
+    "image_1.png.png",
+    "image_2.png.png",
+    "image_3.png.png",
+     "ono.png",
+      "ona.jfif",
+      "one.jfif",
+      "oni.jfif",
+    "onu.jfif",
+"nono.jfif",];
 let currentImageIndex = 0;
 let slideshowInterval;
 
