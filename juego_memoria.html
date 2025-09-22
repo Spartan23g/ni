@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="game-page-container">
+        <h2 class="game-page-title">Juego de Memoria 🎴</h2>
+        <div id="game-container" class="game-content memory-game-container"></div>
+        <a href="home.html" class="cta-button back-to-home-button">Volver al Jardín</a>
+    </div>
+
+    <div id="game-modal" class="modal">
+        <div class="modal-content">
+            <h3 id="modal-title">¡Felicidades!</h3>
+            <div id="modal-body"></div>
+            <div class="modal-buttons">
+                <a href="home.html" class="cta-button">Volver</a>
+                <button id="memory-animation-btn" class="cta-button">Animación</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="memory-animation-modal" class="modal">
+        <div class="modal-content animation-modal-content">
+            <h3>¡Lluvia de Flores!</h3>
+            <div id="flower-rain-container" class="flower-rain-container"></div>
+            <a href="home.html" class="cta-button" style="margin-top: 20px;">Volver al Jardín</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
